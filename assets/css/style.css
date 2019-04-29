@@ -15,6 +15,13 @@
     border: 1px solid #ebebeb;
 }
 
+.ui-section-color {
+    background-color: #232323;
+}
+
+.font-color {
+    color: #ebebeb;
+}
 
 /* ---------- Special Margins/Paddings/Text ---------- */
 
@@ -155,6 +162,21 @@ header div div .col-md-8 {
     height: 120px;
 }
 
+/* ---------- Home Section ---------- */
+
+.welcome-heading {
+    color: #ebebeb;
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+}
+
+.welcome-paragraph {
+    color: #ebebeb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
 /* ---------- Footer ---------- */
 
 footer {
@@ -230,6 +252,19 @@ footer .social-links {
         padding-left: 50px;
     }
     
+    section {
+        min-height: 445px;
+    }
+    
+    .section-home-size {
+        min-height: 445px;
+    }
+    
+    .welcome-paragraph {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    
     .footer-menu {
         padding-left: 0;
         padding-right: 0;
@@ -250,6 +285,10 @@ footer .social-links {
         font-size: 10px;
         margin-right: 20px;
         padding-left: 25px;
+    }
+    
+    .welcome-paragraph {
+        font-size: 14px;
     }
     
     footer .footer-links {
