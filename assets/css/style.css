@@ -10,14 +10,44 @@
     background-color: #444444;
 }
 
+.ui-footer-color {
+    background-color: #000000;
+    border: 1px solid #ebebeb;
+}
+
+
+/* ---------- Special Margins/Paddings/Text ---------- */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;  
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #ebebeb;
+}
+
 /* ---------- Header ----------*/
 
-.heading {
-    margin-left: 50px;
+.col-md-8.lines.heading-menu {
+    padding-right: 0;
 }
 
 header {
     margin: 0;
+}
+
+.header-menu {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .logo {
@@ -109,7 +139,120 @@ header {
     letter-spacing: 2px;
 }
 
+.heading-menu {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+header div div .col-md-8 {
+    padding-right: 0px;
+}
+
+/* ---------- Hover.css ---------- */
+
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    min-height: 80px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: -27px;
+}
+
+footer .footer-links {
+    margin: 0;
+    padding-left: 90px;
+    overflow: hidden;
+    list-style-type: none;
+    
+}
+
+footer .footer-links li {
+    float: left;
+}
+
+footer .footer-links li a {
+    display: block;
+    color: #ebebeb;
+    text-align: center;
+    padding: 15px 15px 5px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+footer .social-links {
+    padding-left: 110px;
+}
+
+.footer-quote {
+    color: #ebebeb;
+    text-align: center;
+}
+
+.footer-quote p {
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    background-color: #606060;
+}
+
+/* ---------- Media Queries ---------- */
+
+@media (max-width: 775px) {
+    .title {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 60px;
+        padding-left: 50px;
+    }
+    
+    .footer-menu {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    footer .footer-links {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 375px) {
+    .name {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .title {
+        font-size: 10px;
+        margin-right: 20px;
+        padding-left: 25px;
+    }
+    
+    footer .footer-links {
+        padding-left: 57px;
+    }
 }
