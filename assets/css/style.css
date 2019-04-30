@@ -57,8 +57,19 @@ header {
     padding-right: 0;
 }
 
-.logo {
+.logo-home {
     background: url("../images/monkees1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logo-members {
+    background: url("../images/monkees2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
