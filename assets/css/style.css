@@ -17,7 +17,6 @@
 
 .ui-section-color {
     background-color: #232323;
-    margin-bottom: 50px;
 }
 
 .font-color {
@@ -71,6 +70,17 @@ header {
 
 .logo-members {
     background: url("../images/monkees2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logo-history {
+    background: url("../images/monkees3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
