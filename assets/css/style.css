@@ -17,6 +17,7 @@
 
 .ui-section-color {
     background-color: #232323;
+    margin-bottom: 50px;
 }
 
 .font-color {
@@ -186,6 +187,32 @@ header div div .col-md-8 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     margin-top: 1rem;
+}
+
+/* ---------- Members Section ---------- */
+
+.members-border {
+    border-right: 1px solid #ebebeb;
+}
+
+img {
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.members-heading {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.members-paragraph {
+    color: #ebebeb;
+    font-family: "Roboto",sans-serif;
+    margin-top: 30px;
+    font-size: 1em;
 }
 
 /* ---------- Footer ---------- */
