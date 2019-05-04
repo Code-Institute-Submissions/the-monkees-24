@@ -90,6 +90,17 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.logo-monkees {
+    background: url("../images/monkees4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 .name {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -332,7 +343,7 @@ body {
         border-color: transparent #606060 transparent transparent;
     }
 
-    .left::after, .right::after {
+    .left:after, .right:after {
         left: 15px;
     }
   
