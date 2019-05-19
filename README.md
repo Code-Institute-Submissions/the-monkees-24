@@ -9,6 +9,8 @@ like to include. A welcome page for making the user feel that they are in a frie
 environment, links to the bands social accounts, brief descriiption of each of the
 band members, a brief history about the band and a contact form to submit a message.
 
+
+
 ## Design
 
 To plan the website, I used a website called moqups.  Moqups is a wireframing
@@ -123,6 +125,7 @@ process.
 - [Added theme color to all web pages](https://github.com/kevinheywood/the-monkees/commit/cb038bb640276ad0426dead14028209d9ee57f43)     
 - [Added heading to contact.html](https://github.com/kevinheywood/the-monkees/commit/10c114b8e75e156994d9c2ec24ee1c3f03b688b5)     
 - [Added moqup images for readme](https://github.com/kevinheywood/the-monkees/commit/89be8ef46ced9a2872e74ffd93bab687b332cee4)
+- [Updated README.md](https://github.com/kevinheywood/the-monkees/commit/d66c7c32023faec08544eb55aa44f467eff1853a)
 
 ## References and Credits
 
@@ -137,6 +140,8 @@ process.
 - [Songfacts](https://calendar.songfacts.com) is where I got the information for the history page.
 - [cloud9](https://c9.io/login) is the software I used to create the website.
 - [github](https://github.com) is where I commited my repositories.
+- I got my inspiration for some of the site from the resume project by Code Institute.
+- I researched how to do a timeline on w3schools for the history section.
 
 ### Testing
 
