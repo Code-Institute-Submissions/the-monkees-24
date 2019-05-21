@@ -9,8 +9,6 @@ like to include. A welcome page for making the user feel that they are in a frie
 environment, links to the bands social accounts, brief descriiption of each of the
 band members, a brief history about the band and a contact form to submit a message.
 
-
-
 ## Design
 
 To plan the website, I used a website called moqups.  Moqups is a wireframing
@@ -19,7 +17,7 @@ wanted the website to be about the monkees, I started thinking about color
 schemes and fonts. I ended up going with a black and white simplistic but clean
 and functional website. Below are the plans I made on moqups.
 
-These are the original plans for the desktop site.
+### These are the original plans for the desktop site.
 
 Home Page - Desktop
 
@@ -37,7 +35,7 @@ Contact Page - Desktop
 
 ![Contact Desktop](assets/moqups-img/Contact-D.jpg/)
 
-These are the original plans for the tablet site.
+### These are the original plans for the tablet site.
 
 Home Page - Tablet
 
@@ -55,7 +53,7 @@ Contact Page - Tablet
 
 ![Contact Tablet](assets/moqups-img/Contact-T.jpg/)
 
-These are the original plans for the mobile site.
+### These are the original plans for the mobile site.
 
 Home Page - Mobile
 
@@ -126,6 +124,7 @@ process.
 - [Added heading to contact.html](https://github.com/kevinheywood/the-monkees/commit/10c114b8e75e156994d9c2ec24ee1c3f03b688b5)     
 - [Added moqup images for readme](https://github.com/kevinheywood/the-monkees/commit/89be8ef46ced9a2872e74ffd93bab687b332cee4)
 - [Updated README.md](https://github.com/kevinheywood/the-monkees/commit/d66c7c32023faec08544eb55aa44f467eff1853a)
+- [Updated social links with noopener](https://github.com/kevinheywood/the-monkees/commit/a9245638a67f0afe180d9786fa7455b998206535)
 
 ## References and Credits
 
@@ -147,3 +146,8 @@ process.
 
 - Google chrome audits is how I tested my site.   
 - [w3 validator](https://validator.w3.org) is another way I tested the site.
+
+### Thanks
+
+I would like to take this oppertunity to thank my mentor, Viktor Miclovich for
+giving me advice and help me understand things better.
