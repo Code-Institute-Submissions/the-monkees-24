@@ -159,3 +159,6 @@ The images I used were from one source:
 
 I would like to thank my tutor, Viktor Miclovich for providing great feedback and
 advice that helped me with the site.
+
+The design of the website was inspired by the resume project in the user-centric
+section.
